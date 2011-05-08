@@ -26,6 +26,7 @@
 		FA1D36DC1376AF5D0009C78A /* DXCompress */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DXCompress; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1D36E01376AF5D0009C78A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA1D36E21376AF5D0009C78A /* DXCompress.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DXCompress.1; sourceTree = "<group>"; };
+		FA6E4E64137730E900AA495D /* Komprimierungsalgorithmus.graphml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Komprimierungsalgorithmus.graphml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		FA1D36D11376AF5D0009C78A = {
 			isa = PBXGroup;
 			children = (
+				FA6E4E64137730E900AA495D /* Komprimierungsalgorithmus.graphml */,
 				FA1D36DF1376AF5D0009C78A /* DXCompress */,
 				FA1D36DD1376AF5D0009C78A /* Products */,
 			);
@@ -194,6 +196,7 @@
 				FA1D36E71376AF5D0009C78A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
