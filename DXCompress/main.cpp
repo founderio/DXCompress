@@ -68,7 +68,10 @@ void compress()
 	
 		//Prüfblocklänge auf die Hälfte der Datei setzen
 	pruefblocklaenge = floor(datalength/2);
-	
+	if(pruefblocklaenge > 100)
+	{
+		pruefblocklaenge = 100;
+	}
 	
 	
 		//cout << data;
@@ -79,8 +82,8 @@ void compress()
 		pruefblockposition = 0;
 		
 			//Statusausgabe
-		cout << "Datalengthänge: " << data.length() << ", ";
-		cout << "PrüCheckblocklengthänge: " << pruefblocklaenge << endl;
+		cout << "Datalength: " << data.length() << ", ";
+		cout << "Checkblocklength: " << pruefblocklaenge << endl;
 		
 		while ((pruefblocklaenge+pruefblockposition) <= (data.length()-pruefblocklaenge)) {
 				//Prüfposition direkt hinter den Prüfblock setzen, vorher haben wir ja schon in vorherigen Durchläufen getestet.
